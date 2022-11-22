@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+header{
+    height: 0 auto;
+    width: 100%;
+    padding: 0;
+}
+
+.header h1{
+    color: white;
+    padding-left: 40px;
+    
+}
+.header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    background: linear-gradient(90deg, rgb(160, 24, 24),rgb(129, 11, 11));
+    box-shadow: 0px 1px 10px 1px black;
+    position:relative;
+    z-index: 2;
+    
+
+}
+.headerBtns{
+    display: flex;
+    align-items: center;
+}
+.headerBtns a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.menu{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1420px;
+    height: 40px;
+    background: linear-gradient(90deg, rgb(133, 13, 13),rgb(114, 8, 8));
+    z-index: 1;
+    position:relative;
+    align-items: center;
+    box-shadow: 0px 1px 3px 1px black;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    margin: 0 auto;
+    padding: 0;
+}
+.main-container{
+    max-width: 1420px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(245, 245, 245);
+}
