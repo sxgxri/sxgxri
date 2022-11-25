@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="stylesheet" href="styles/startStyle.css">
+    <link rel="stylesheet" href="../styles/userStyle.css">
     <title>Главная</title>
 </head>
 <body>
@@ -13,8 +12,7 @@
     <div class="header">
         <h1>GameJuice</h1>
         <div class="headerBtns">
-        <a href="{{ url('/log') }}">Авторизация</a>
-        <a href="{{ url('/reg') }}">Регистрация</a>
+    <a href="{{ url('/log') }}">Выйти({{$name}})</a>
         </div>
     </div>
     <div class="menu">
@@ -26,7 +24,8 @@
     </header>
     <main>
     <div class="main-container">
-        
+        <h1>Личный кабинет</h1>
+            <p></p>
     </div>
     </main>
 

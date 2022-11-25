@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +13,8 @@
     <div class="header">
         <h1>GameJuice</h1>
         <div class="headerBtns">
-        <a href="">Авторизация</a>
-        <a href="">Регистрация</a>
+        <a href="{{ url('/log') }}">Авторизация</a>
+        <a href="{{ url('/reg') }}">Регистрация</a>
         </div>
     </div>
     <div class="menu">
@@ -30,7 +30,7 @@
         <form method="POST" action='{{route("reg")}}'>
         <h1>Регистрация</h1>
 @csrf
-        <p><input type="text" name="login" placeholder="Введите логин" id="login"></p>
+        <p><input type="text" name="name" placeholder="Введите логин" id="name"></p>
         <p><input type="password" name="password" placeholder="Введите пароль" id="password"></p>
         <p><input type="email" name="email" placeholder="Введите E-mail" id="mail"></p>
         <p><input id="bt"type="submit" name="submit" value="Зарегистрироваться"></p>
