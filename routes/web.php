@@ -28,6 +28,7 @@ Route::get('/reg', function () {
 });
 Route::get('/log', function () {
     return view('login');
+    
 });
 Route::get('/top', function () {
     return view('toplist');

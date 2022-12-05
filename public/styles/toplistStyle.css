@@ -1,7 +1,9 @@
+
 *{
     font-family: 'Russo One', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 body{
     padding: 0;
     margin: 0 auto;
@@ -18,7 +20,6 @@ header{
     padding: 15px;
     font-size: 34px;
     text-decoration: none;
-
 }
 
 .log{
@@ -81,7 +82,7 @@ main{
 }
 .main-container{
     max-width: 1420px;
-    height: 800px;
+    height: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -89,7 +90,25 @@ main{
     background-color: rgb(245, 245, 245);
 }
 
-
+.image{
+    padding: 0;
+    padding-top: 10px;
+    margin: 0 auto;
+    background:url(../images/top20221.jpg);
+    display: block;
+    background-repeat: no-repeat;
+   height: 400px;
+   width: 100%;
+   background-position: 45%;
+   background-size: 100%;
+   text-align: center;
+   color: white;
+}
+.image a{
+    font-size: 170px;
+    margin-top: 70px;
+    display: inline-block;
+}
 
 
 

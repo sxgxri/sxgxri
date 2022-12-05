@@ -2,6 +2,7 @@
     font-family: 'Russo One', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 body{
     padding: 0;
     margin: 0 auto;
@@ -18,7 +19,6 @@ header{
     padding: 15px;
     font-size: 34px;
     text-decoration: none;
-
 }
 
 .log{
@@ -30,7 +30,6 @@ header{
 .log:hover{
     padding-left: 10px;
 }
-
 
 
 .header{
