@@ -20,7 +20,7 @@
         </div>
         <div class="headerBtns">
         <a href="{{ url('/log') }}">Авторизация</a>
-        <a href="{{ url('/reg') }}">Регистрация</a>
+        <a href="{{ url('/reg') }}">Регистрация</a> 
         </div>
     </div>
     <div class="menu">

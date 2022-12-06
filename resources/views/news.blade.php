@@ -32,12 +32,13 @@
     </header>
     <main>
     <div class="main-container">
-        <div class="new"></div>
-        <div class="new"></div>
-        <div class="new"></div>
-        <div class="new"></div>
-        <div class="new"></div>
-        <div class="new"></div>
+        @foreach($data->take(8) as $item)
+        <div class="new">
+            <img src="{{$item->image}}" alt="" style="max-width:15%; padding:15px">
+            <p>{{$item->text}}</p> 
+        </div>
+        @endforeach
+    
     </div>
     </main>
 

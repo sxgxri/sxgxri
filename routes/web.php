@@ -5,6 +5,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegController;
 use App\Http\Controllers\StartController;
+use App\Http\Controllers\NewsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,9 +34,6 @@ Route::get('/log', function () {
 Route::get('/top', function () {
     return view('toplist');
 });
-Route::get('/news', function () {
-    return view('news');
-});
 Route::get('/genres', function () {
     return view('genres');
 });
@@ -44,3 +42,4 @@ Route::get('/newprod', function () {
 });
 Route::post('/reg',  [RegController::class,'Reg'])->name('reg');
 Route::post('/login', [LoginController::class,'authenticate'])->name('login');
+Route::get('/news', [NewsController::class, 'getNews']);

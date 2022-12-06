@@ -106,6 +106,8 @@ li{
     border-radius: 15px;
     box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.397);
     border-bottom:solid black 1px ;
+    display: flex;
+    align-items: center;
 }
 
 @media(max-width:1370px){
